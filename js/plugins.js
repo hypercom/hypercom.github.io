@@ -154,16 +154,16 @@ $(document).ready(function() {
     // Start numbers animate at fun-facts section //
     $("#facts").appear(function() {
         $("#number_1").animateNumber({
-            number: 6853
+            number: 12600
         }, 2200);
         $("#number_2").animateNumber({
-            number: 120
+            number: 11
         }, 2200);
         $("#number_3").animateNumber({
-            number: 345
+            number: 3600
         }, 2200);
         $("#number_4").animateNumber({
-            number: 195
+            number: 4300
         }, 2200);
     }, {
         accX: 0,
@@ -183,16 +183,16 @@ $(document).ready(function() {
         });
         // start numbers animate at skills section //
         $("#chart_num_1").animateNumber({
-            number: 88
+            number: 85
         }, 1500);
         $("#chart_num_2").animateNumber({
-            number: 95
+            number: 90
         }, 1500);
         $("#chart_num_3").animateNumber({
-            number: 73
+            number: 80
         }, 1500);
         $("#chart_num_4").animateNumber({
-            number: 55
+            number: 70
         }, 1500);
     }, {
         accX: 0,
