@@ -1481,6 +1481,7 @@ a.selected-item:before, .side-menu a:hover:before {
 
 	/* Start header section */
 	.header .content h1 {font-size: 3rem;}
+	.header .large-header  {background: #333 url('../img/header_w750.jpg') center center no-repeat fixed;}
 	/* End header section */
 
 	/* Start portfolio section */
@@ -1500,7 +1501,7 @@ a.selected-item:before, .side-menu a:hover:before {
 @media (min-width: 481px) and (max-width: 767px) {
 
 	html {font-size: 14px;}
-
+	.header .large-header  {background: #333 url('../img/header_w750.jpg') center center no-repeat fixed;}
 	/* Start portfolio section */
 	.portfolio .controls button {margin-right: 10px;}
 	/* End Portfolio section */
