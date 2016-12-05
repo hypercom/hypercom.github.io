@@ -116,7 +116,7 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	width: 100%;
 	background: #333 url('../img/header.jpg') center center no-repeat fixed;
 	position: relative;
-	background-size: cover
+	background-size: cover;
 	overflow: hidden;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
