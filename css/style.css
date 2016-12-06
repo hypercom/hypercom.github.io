@@ -1557,8 +1557,9 @@ a.selected-item:before, .side-menu a:hover:before {
 	.testmonials .opinion p {width: 100%;}
 	/* End Testmonials Section */
 	.header .large-header {
-		background: #333 url('../img/bg_header.jpg') center center no-repeat;
-		background-attachment: fixed;
+		width: 100%;
+		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
+		background-attachment: scroll;
 		position: relative;
 		overflow: hidden;
 		-webkit-background-size: cover;
