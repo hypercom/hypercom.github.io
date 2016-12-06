@@ -1484,7 +1484,8 @@ a.selected-item:before, .side-menu a:hover:before {
 	}
  	/* End portfolio section */
 	.header .large-header {
-		background: #333 url('../img/bg_header_w750.jpg') center center no-repeat;
+		width: 100%;
+		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
 		background-attachment: scroll;
 		position: relative;
 		overflow: hidden;
@@ -1505,7 +1506,8 @@ a.selected-item:before, .side-menu a:hover:before {
 	.portfolio .controls button {margin-right: 10px;}
 	/* End Portfolio section */
 	.header .large-header {
-		background: #333 url('../img/bg_header_w750.jpg') center center no-repeat;
+		width: 100%;
+		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
 		background-attachment: scroll;
 		position: relative;
 		overflow: hidden;
