@@ -114,7 +114,7 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 
 .header .large-header {
 	background: #333 url('../img/bg_header.jpg') center center no-repeat;
-	background-attachment:scroll;
+	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
 	-webkit-background-size: cover;
@@ -1504,6 +1504,10 @@ a.selected-item:before, .side-menu a:hover:before {
 	/* Start portfolio section */
 	.portfolio .controls button {margin-right: 10px;}
 	/* End Portfolio section */
+	.header .large-header {
+		background: #333 url('../img/bg_header_w750.jpg') center center no-repeat;
+		background-attachment: scroll;
+	}
 }
 
 
