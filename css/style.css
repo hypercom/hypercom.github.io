@@ -113,8 +113,8 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 ----------------------------------------- */
 .header .large-header {
 	width: 100%;
-	background: #333 url('../img/bg_header_w750.jpg') no-repeat;
-	background-attachment: scroll;
+	background: #333 url('../img/bg/bg_header.jpg') no-repeat;
+	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
 	-webkit-background-size: cover;
@@ -434,7 +434,7 @@ a.selected-item:before, .side-menu a:hover:before {
 ----------------------------------------- */
 
 .fun-facts {
-	background: #333 url('../img/facts.jpg') center center no-repeat fixed;
+	background: #333 url('../img/bg/facts.jpg') center center no-repeat fixed;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
@@ -504,7 +504,7 @@ a.selected-item:before, .side-menu a:hover:before {
 ----------------------------------------- */
 
 .technical-skills {
-	background: #333 url('../img/coding-min.jpg') center center no-repeat fixed;
+	background: #333 url('../img/bg/coding-min.jpg') center center no-repeat fixed;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
@@ -751,7 +751,8 @@ a.selected-item:before, .side-menu a:hover:before {
 ----------------------------------------- */
 
 .quote {
-	background: #333 url('../img/qoute.jpg') center center no-repeat fixed;
+	padding: 80px 0;
+	background: #333 url('../img/bg/qoute.jpg') center center no-repeat fixed;
 	overflow: hidden;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -784,360 +785,6 @@ a.selected-item:before, .side-menu a:hover:before {
 }
 
 /* End  Quote Section */
-
-
-/* ---------------------------------------
-			Start  Portfolio Section
------------------------------------------ */
-.portfolio .controls { margin-top: 60px;}
-.portfolio .controls button {
-	position: relative;
-	background-color: transparent;
-	border: 1px solid #dadada;
-	color: #333;
-	padding: 8px 15px;
-	margin-right: 10px;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	overflow: hidden;
-}
-.portfolio .controls button:after {
-	position: absolute;
-	content: attr(data-content);
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	padding: 8px 15px;
-	border-radius: 3px;
-	background: #181818;
-	color: #fff;
-	-webkit-transform: translateX(-110%);
-    -ms-transform: translateX(-110%);
-    transform: translateX(-110%);
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-}
-.portfolio .controls button:hover:after {
-	-webkit-transform: translateX(0%);
-    -ms-transform: translateX(0%);
-    transform: translateX(0%);
-}
-.portfolio #Container {margin-top: 20px;}
-.portfolio #Container .mix {
-	display: none;
-	margin-bottom: 40px;
-}
-.portfolio .img-wrapper {
-	position: relative;
-	overflow: hidden;
-}
-.portfolio .overlay-content .open-popup-link {
-	display: inline-block;
-}
-.portfolio .overlay-content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-}
-.portfolio .overlay-content:before {
-	position: absolute;
-	content: "";
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
-	background: #fff;
-	opacity: 0;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-.portfolio .overlay-content span, .portfolio .overlay-content i {
-	position: absolute;
-	display: block;
-	width:  100%;
-	color: #333;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.portfolio .overlay-content span {
-	top: 10%;
-	left: -100%;
-	opacity: 0;
-	font-size: 1.4rem;
-	font-weight: normal;
-	text-transform: capitalize;
-}
-
-.portfolio .overlay-content i {
-	background: #fff;
-	font-size: 1.8rem;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	top: 45%;
-	left: 150%;
-	opacity: 0;
-}
-.portfolio .img-wrapper:hover .overlay-content:before {opacity: 0.75;}
-.portfolio .img-wrapper:hover .overlay-content span,
-.portfolio .img-wrapper:hover .overlay-content i {
-	left:  50%;
-	opacity: 1;
-}
-.white-popup {
-	position: relative;
-	background: #FFF;
-	padding: 20px;
-	width: auto;
-	max-width: 700px;
-	margin: 20px auto;
-	text-align: center;
-}
-.white-popup h3 {
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-.white-popup img {margin-top: 20px; margin-bottom: 20px;}
-.white-popup p {
-	text-align: left;
-	line-height: 2;
-	padding-left: 10px;
-}
-.white-popup p.cat {text-align: center; padding-left: 0;}
-.mfp-close, button.mfp-close, button.mfp-arrow {
-	background: #ddd;
-	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-	-moz-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-	-ms-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-	-o-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-    transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
-}
-.mfp-close:hover {
-	color: #fff;
-	background: #222;
-}
-/* End  Portfolio section */
-
-
-/* ---------------------------------------
-			Start  Testmonials Section
------------------------------------------ */
-
-.testmonials {
-	background: #333 url('../img/testimonials.jpg') center center no-repeat fixed;
-	color: #fff;
-	position: relative;
-	background-size: cover;
-	padding-bottom: 80px;
-	padding-top: 80px;
-}
-.testmonials .client h3 {
-	color: #fff;
-	font-size: 2rem;
-	margin: 10px auto;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-}
-.testmonials .client h3 + span {
-	font-size: 1.2rem;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	color: #ccc;
-}
-.testmonials .client .stars {
-    margin: 10px auto;
-}
-.testmonials .client .stars span {
-    font-size: 2rem;
-    margin:  0 5px;
-}
-.testmonials .opinion i {
-	display: inline-block;
-	font-size: 2.5rem;
-	margin: 10px auto;
-	line-height: 1;
-}
-.testmonials .opinion i.reversed {margin-bottom: 0;}
-.testmonials .opinion i.reversed:before {
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-.testmonials .opinion p {
-	width: 75%;
-	margin: 0 auto;
-	line-height: 1.7;
-	letter-spacing: 2px;
-	font-style: italic;
-	color: #eee;
-}
-
-/* End  Testmonials section */
-
-
-/* ---------------------------------------
-			Start  Contact Section
------------------------------------------ */
-
-.contact {
-	padding-top: 80px;
-}
-.contact .title h2 {
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
-.contact .title p {
-	text-transform: uppercase;
-	letter-spacing: 1.8px;
-}
-.contact .description {
-	width: 70%;
-	margin: 40px auto;
-}
-.contact .description p {
-	color: #555;
-	letter-spacing: 1.5px;
-	margin-bottom: 30px;
-}
-.contact .form-wrapper {
-	margin-top: 40px;
-}
-.contact .form-group {
-	position: relative;
-	margin-bottom: 20px;
-}
-.contact .form-control {
-	color: #777;
-	padding: 20px;
-	border: 1px solid #ccc;
-	border-radius: 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.contact .form-control:focus {
-	border: 1px solid #aaa;
-	color: #555;
-	outline: none;
-	box-shadow: none;
-}
-.contact .form-control + label {
-	position: absolute;
-	left: 30px;
-	top: 20px;
-	color: #5f5f5f;
-	font-size: 16px;
-	font-weight: 300;
-	pointer-events: none;
-	-webkit-transition: all 0.15s ease-out 0s;
-	-moz-transition: all 0.15s ease-out 0s;
-	transition: all 0.15s ease-out 0s;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-.contact .text-area-container {margin: 10px auto;}
-.contact .form-control:focus + label,
-.contact .form-control.has-value + label {
-	top: 0;
-	font-size: 14px;
-	background: #fff;
-	padding: 0 10px;
-	color: #ccc;
-}
-.contact textarea {
-	resize: none;
-	min-height: 240px;
-}
-.contact .form-group.warning .form-control:focus + label,
-.contact .form-group.warning .form-control.has-value + label,
-.contact .form-group .text-danger {color: #F35050;}
-.contact .form-group .text-danger ul {list-style: none;}
-.contact .form-group.warning .form-control {border-color: #F35050;}
-.contact .submit-btn {
-	display: block;
-	width: 100%;
-	padding: 15px 0;
-	margin-top: 10px;
-	border: 1px solid #CCC;
-	border-radius: 0;
-	background: #fff;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	color: #555;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.contact .submit-btn:hover {
-	border: 1px solid #181818;
-	background: #181818;
-	color: #fff;
-}
-.contact .submit-btn:active {
-	-webkit-transform: translateY(3px);
-	-moz-transform: translateY(3px);
-	-ms-transform: translateY(3px);
-	-o-transform: translateY(3px);
-	transform: translateY(3px);
-}
-.contact .form-response {
-	margin-top: 10px;
-	font-family: 'Raleway', sans-serif;
-	color: #333;
-}
-.contact .contact-info {margin-top: 40px;}
-.contact .contact-info .info {margin-bottom: 40px;}
-.contact .contact-info .info i {
-	position: relative;
-	background: #fff;
-	font-size: 3rem;
-	color: #181818;
-	display: block;
-	width: 80px;
-	height: 80px;
-	margin: 0 auto;
-	margin-bottom: -40px;
-	line-height: 80px;
-	border-bottom: 4px solid rgba(233,233,233,0.8);
-	border-radius: 0 0 100% 100%;
-}
-.contact .contact-info .info .info-content {
-	border: 1px solid #ccc;
-	padding: 40px 0 20px;
-}
-.contact .contact-info .info .info-content h3 {
-	color: #181818;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-.contact .contact-info .info .info-content span {
-	display: block;
-	color: #555;
-	letter-spacing: 1.5px;
-	margin: 5px auto;
-}
-#map {
-	width: 100%;
-	height: 500px;
-	margin-top: 40px;
-}
-
-/* End  Contact section */
-
 
 /* ---------------------------------------
 			Start  Partners Section
@@ -1484,29 +1131,6 @@ a.selected-item:before, .side-menu a:hover:before {
 	/* Start header section */
 	.header .content h1 {font-size: 3rem;}
 	/* End header section */
-
-	/* Start portfolio section */
-	.portfolio .controls button {
-		width: 50%;
-		margin: 5px auto;
-	}
-	.portfolio #Container .mix { width: 100%;}
-	.portfolio .overlay-content span, .portfolio .overlay-content i {
-		margin: 0 auto;
-	}
- 	/* End portfolio section */
-	.header .large-header {
-		width: 100%;
-		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
-		background-attachment: scroll;
-		position: relative;
-		overflow: hidden;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		z-index: -1;
-	}
 }
 
 /* Smart phones and Tablets */
@@ -1514,21 +1138,6 @@ a.selected-item:before, .side-menu a:hover:before {
 @media (min-width: 481px) and (max-width: 767px) {
 
 	html {font-size: 14px;}
-	/* Start portfolio section */
-	.portfolio .controls button {margin-right: 10px;}
-	/* End Portfolio section */
-	.header .large-header {
-		width: 100%;
-		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
-		background-attachment: scroll;
-		position: relative;
-		overflow: hidden;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		z-index: -1;
-	}
 }
 
 @media (max-width: 767px) {
@@ -1553,35 +1162,26 @@ a.selected-item:before, .side-menu a:hover:before {
 	.about-me {text-align: center;}
 	/* End about me section */
 
-	/* Start Testmonials Section */
-	.testmonials .opinion p {width: 100%;}
-	/* End Testmonials Section */
 	.header .large-header {
-		width: 100%;
-		background: #333 url('../img/bg_header_w750.jpg') no-repeat;
+		background: #333 url('../img/bg_mobile/bg_header_m.jpg') no-repeat;
 		background-attachment: scroll;
-		position: relative;
-		overflow: hidden;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
 		background-size: cover;
-		z-index: -1;
+	}
+
+	.fun-facts {
+		background: #333 url('../img/bg_mobile/facts_m.jpg') center center  no-repeat scroll;
+		background-size: cover;
+	}
+
+	.technical-skills {
+		background: #333 url('../img/bg_mobile/coding-min_m.jpg') center center no-repeat scroll;
+		background-size: cover;
+	}
+
+	.quote {
+		background: #333 url('../img/bg_mobile/qoute_m.jpg') center center no-repeat scroll;
 	}
 }
-
-@media (min-width: 768px) {
-	.header .large-header {
-		background: #333 url('../img/bg_header.jpg') center center no-repeat;
-		background-attachment: fixed;
-		position: relative;
-		overflow: hidden;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		z-index: -1;
-	}
 }
 
 /* End Media Query */
