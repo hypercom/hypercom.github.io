@@ -112,17 +112,6 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 			Start Header Section
 ----------------------------------------- */
 
-.header .large-header {
-	background: #333 url('../img/bg_header.jpg') center center no-repeat;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	z-index: -1;
-}
 .header .content {
 	position: absolute;
 	width: 100%;
@@ -1494,6 +1483,17 @@ a.selected-item:before, .side-menu a:hover:before {
 		margin: 0 auto;
 	}
  	/* End portfolio section */
+	.header .large-header {
+		background: #333 url('../img/bg_header_w750.jpg') center center no-repeat;
+		background-attachment: scroll;
+		position: relative;
+		overflow: hidden;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		z-index: -1;
+	}
 }
 
 /* Smart phones and Tablets */
@@ -1507,9 +1507,15 @@ a.selected-item:before, .side-menu a:hover:before {
 	.header .large-header {
 		background: #333 url('../img/bg_header_w750.jpg') center center no-repeat;
 		background-attachment: scroll;
+		position: relative;
+		overflow: hidden;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		z-index: -1;
 	}
 }
-
 
 @media (max-width: 767px) {
 
@@ -1536,6 +1542,31 @@ a.selected-item:before, .side-menu a:hover:before {
 	/* Start Testmonials Section */
 	.testmonials .opinion p {width: 100%;}
 	/* End Testmonials Section */
+	.header .large-header {
+		background: #333 url('../img/bg_header.jpg') center center no-repeat;
+		background-attachment: fixed;
+		position: relative;
+		overflow: hidden;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		z-index: -1;
+	}
+}
+
+@media (min-width: 768px) {
+	.header .large-header {
+		background: #333 url('../img/bg_header.jpg') center center no-repeat;
+		background-attachment: fixed;
+		position: relative;
+		overflow: hidden;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		z-index: -1;
+	}
 }
 
 /* End Media Query */
