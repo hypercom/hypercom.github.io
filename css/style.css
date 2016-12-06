@@ -113,7 +113,10 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 ----------------------------------------- */
 
 .header .large-header {
-	background: #333 url('../img/bg_header.jpg') center center no-repeat fixed;
+	min-width: 100%;
+	max-width: 100%;
+	background: #333 url('../img/bg_header.jpg') center center no-repeat;
+	background-attachment:fixed;
 	position: relative;
 	overflow: hidden;
 	-webkit-background-size: cover;
