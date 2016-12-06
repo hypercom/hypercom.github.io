@@ -117,11 +117,13 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	background: #333 url('../img/header.jpg') no-repeat fixed;
 	position: relative;
 	overflow: hidden;
-	-webkit-background-size: cover;
+	/*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-size: cover;
-	z-index: 1;
+	/*z-index: 1;*/
+
+	-webkit-transform: translateZ(0);
 }
 .header .content {
 	position: absolute;
