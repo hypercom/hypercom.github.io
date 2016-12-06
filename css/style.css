@@ -117,27 +117,24 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	background: #333 url('../img/header.jpg') center center no-repeat fixed;
 	position: relative;
 	overflow: hidden;
--webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	-webkit-transform: translateZ(0);
 	z-index: 1;
 }
 .header .content {
 	position: absolute;
 	width: 100%;
-    top: 50%;
-    left: 50%;
-    letter-spacing: 1.4px;
+  top: 50%;
+  left: 50%;
+  letter-spacing: 1.4px;
 	text-transform: uppercase;
-    -webkit-transform: translate3d(-50%,-50%,0);
-    -moz-transform: translate3d(-50%,-50%,0);
-    -o-transform: translate3d(-50%,-50%,0);
-    transform: translate3d(-50%,-50%,0);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
 }
 .header .content p {
 	font-size: 1.3rem;
@@ -440,6 +437,7 @@ a.selected-item:before, .side-menu a:hover:before {
 	background: #333 url('../img/facts.jpg') no-repeat 50% 80% fixed;
 	position: relative;
 	background-size: cover;
+	-webkit-transform: translateZ(0);
 }
 .fun-facts .fact {
 	color: #d2d2d2;
