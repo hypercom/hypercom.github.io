@@ -909,9 +909,9 @@ a.selected-item:before, .side-menu a:hover:before {
 	z-index: 800;
 	bottom: 20px;
 	right: -60px;
-	width: 50px;
-	height: 50px;
-	line-height: 45px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	font-size: 2rem;
 	border: 2px solid #ededed;
 	cursor: pointer;
