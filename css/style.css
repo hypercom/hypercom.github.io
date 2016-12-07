@@ -913,7 +913,7 @@ a.selected-item:before, .side-menu a:hover:before {
 	height: 45px;
 	line-height: 45px;
 	font-size: 2rem;
-	border: 1.5px solid #ededed;
+	border: 1px solid #ededed;
 	cursor: pointer;
 	color:  #ededed;
 	background: #111;
