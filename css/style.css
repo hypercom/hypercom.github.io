@@ -112,7 +112,7 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 			Start Header Section
 ----------------------------------------- */
 .header .large-header {
-	background: #333 url('../img/bg/bg_header.jpg') no-repeat;
+	background: #333 url('../img/bg/bg_header.jpg') center center no-repeat;
 	background-attachment: fixed;
 	position: relative;
 	overflow: hidden;
